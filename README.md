@@ -11,7 +11,7 @@ FilmFusion is a movie ticket booking website designed as a user interface to rep
 
 1. Clone the repository:
    ```bash
-   git clone https://git@github.com:krushna-simform/movie-ticket-booking-app-filmfusion.git
+   git clone https://git@github.com:krushna-simform/filmfusion.git
    ```
 2. Navigate to the project directory:
    ```bash
