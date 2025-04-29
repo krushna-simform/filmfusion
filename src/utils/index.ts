@@ -7,7 +7,7 @@ export const MovieData: Array<MovieDetails> = [
       "The Avengers face their most powerful enemy yet—Thanos, who is on a mission to collect all six Infinity Stones and wipe out half of the universe. Heroes must unite to stop him in this thrilling action-packed sci-fi adventure.",
     genre: "Action/Sci-fi",
     coverImage:
-      "https://mrwallpaper.com/images/hd/purple-avengers-endgame-captain-america-iphone-1pcedmcxzdrylb4o.jpg",
+      "https://i.ytimg.com/vi/OvngUkG_Stw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCa8F6gB_1SWm4svhbCnYj2VNF8ww",
     poster:
       "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_FMjpg_UX1000_.jpg",
     cast: [
