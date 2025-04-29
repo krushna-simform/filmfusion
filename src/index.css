@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+:root {
+  --primary-color: #cc459b;
+  --secondary-color: #ff30b3;
+}
+
+body {
+  background-image: url("/images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
