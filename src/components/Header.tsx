@@ -2,9 +2,12 @@ import { CiSearch } from "react-icons/ci";
 
 const Header = () => {
   return (
-    <div className="text-white flex justify-between py-6 lg:px-20 sm:px-3">
+    <header className="text-white flex justify-between py-6 lg:px-20 sm:px-3">
       <div>
-        <p className="text-[var(--primary-color)] text-4xl font-bold">
+        <p
+          className="text-[var(--primary-color)] text-4xl font-bold"
+          role="heading"
+        >
           FilmFusion
         </p>
       </div>
@@ -33,7 +36,7 @@ const Header = () => {
           Register
         </button>
       </div>
-    </div>
+    </header>
   );
 };
 
