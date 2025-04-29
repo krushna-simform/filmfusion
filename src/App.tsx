@@ -1,8 +1,12 @@
+import Header from "./components/Header";
+import MainFeed from "./components/MainFeed";
+
 function App() {
   return (
-    <>
-      <h1 className="text-red-500">FilmFusion</h1>
-    </>
+    <div>
+      <Header />
+      <MainFeed />
+    </div>
   );
 }
 
