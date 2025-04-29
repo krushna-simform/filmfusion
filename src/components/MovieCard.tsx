@@ -1,5 +1,9 @@
 import type { MovieCard as MovieCardType } from "../utils/interface";
 
+const formatVotes = (votes: number): string => {
+  return votes >= 1000 ? (votes / 1000).toFixed(1) + "k" : votes.toString();
+};
+
 const MovieCard = ({
   movieImageUrl,
   movieTitle,
@@ -8,10 +12,6 @@ const MovieCard = ({
   positiveVotes,
   negativeVotes,
 }: MovieCardType) => {
-  const formatVotes = (votes: number): string => {
-    return votes >= 1000 ? (votes / 1000).toFixed(1) + "k" : votes.toString();
-  };
-
   const totalVotes = positiveVotes + negativeVotes;
   const formattedTotalVotes = formatVotes(totalVotes);
   const averageRating = ((positiveVotes / totalVotes) * 10).toFixed(1);
