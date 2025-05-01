@@ -17,6 +17,7 @@ const Header = () => {
             type="text"
             placeholder="Search movies"
             className="h-10 w-100 border border-white text-white backdrop-blur-3xl rounded-sm px-2 pl-8"
+            aria-label="Search movies"
           />
           <CiSearch
             className="h-6 w-6 absolute left-2"
@@ -25,7 +26,7 @@ const Header = () => {
         </div>
         <button
           className="bg-[var(--primary-color)] py-2 px-4 text-lg rounded-lg cursor-pointer hover:bg-[var(--secondary-color)] transition ease-in-out"
-          aria-label="Lgoin Button"
+          aria-label="Login Button"
         >
           Login
         </button>
