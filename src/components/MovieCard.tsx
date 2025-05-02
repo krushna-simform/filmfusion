@@ -17,13 +17,13 @@ const MovieCard = ({
   const averageRating = ((positiveVotes / totalVotes) * 10).toFixed(1);
 
   return (
-    <div className="w-62 h-110 [perspective:1000px]">
+    <div className="flip-card w-64 h-110">
       <div
-        className="relative h-full w-full transition-all duration-700 [transform-style:preserve-3d] group hover:[transform:rotateY(180deg)]"
+        className="flip-card-inner h-full w-full"
         tabIndex={0}
         aria-label="Flip movie card"
       >
-        <div className="absolute inset-0 bg-black rounded-2xl overflow-hidden">
+        <div className="flip-card-front absolute rounded-2xl overflow-hidden h-full w-full">
           <img
             src={movieImageUrl}
             alt={movieTitle}
@@ -35,18 +35,19 @@ const MovieCard = ({
             <p className="text-slate-200">{movieDescription}</p>
             <p>
               <span className="text-amber-200 text-sm font-bold">
-                {averageRating}/10
+                {averageRating}
               </span>
               <span className="text-gray-200 text-sm font-bold ml-2">
-                {formattedTotalVotes} Votes
+                {formattedTotalVotes}
               </span>
             </p>
           </div>
         </div>
-        <div className="absolute inset-0 [backface-visibility:hidden] bg-black rounded-2xl overflow-hidden [transform:rotateY(180deg)]">
+        <div className="absolute flip-card-back rounded-2xl overflow-hidden h-full w-full">
           <img
             src={backImageUrl}
-            alt="Back Side Image"
+            alt={movieTitle}
+            loading="lazy"
             className="h-full w-full object-cover"
           />
         </div>
