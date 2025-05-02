@@ -1,4 +1,5 @@
-import { CiSearch } from "react-icons/ci";
+import { Button } from "./ui/Button.tsx";
+import { Search } from "./ui/Search.tsx";
 
 const Header = () => {
   return (
@@ -12,30 +13,9 @@ const Header = () => {
         </p>
       </div>
       <div className="flex items-center gap-4">
-        <div className="relative items-center hidden md:flex">
-          <input
-            type="text"
-            placeholder="Search movies"
-            className="h-10 w-100 border border-white text-white backdrop-blur-3xl rounded-sm px-2 pl-8"
-            aria-label="Search movies"
-          />
-          <CiSearch
-            className="h-6 w-6 absolute left-2"
-            aria-label="Search icon"
-          />
-        </div>
-        <button
-          className="bg-[var(--primary-color)] py-2 px-4 text-lg rounded-lg cursor-pointer hover:bg-[var(--secondary-color)] transition ease-in-out"
-          aria-label="Login Button"
-        >
-          Login
-        </button>
-        <button
-          className="bg-[var(--primary-color)] py-2 px-4 text-lg rounded-lg cursor-pointer hover:bg-[var(--secondary-color)] transition ease-in-out"
-          aria-label="Register Button"
-        >
-          Register
-        </button>
+        <Search />
+        <Button ariaLabel="Login" innerText="Login" />
+        <Button ariaLabel="Register" innerText="Register" />
       </div>
     </header>
   );
