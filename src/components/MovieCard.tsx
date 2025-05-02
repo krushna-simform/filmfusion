@@ -4,7 +4,7 @@ const formatVotes = (votes: number): string => {
   return votes >= 1000 ? (votes / 1000).toFixed(1) + "k" : votes.toString();
 };
 
-const MovieCard = ({
+export const MovieCard = ({
   movieImageUrl,
   movieTitle,
   movieDescription,
@@ -55,5 +55,3 @@ const MovieCard = ({
     </div>
   );
 };
-
-export default MovieCard;
