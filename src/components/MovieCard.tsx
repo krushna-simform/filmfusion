@@ -5,10 +5,10 @@ const formatVotes = (votes: number): string => {
 };
 
 export const MovieCard = ({
-  movieImageUrl,
-  movieTitle,
-  movieDescription,
-  backImageUrl,
+  posterUrl,
+  title,
+  description,
+  backPosterUrl,
   positiveVotes,
   negativeVotes,
 }: MovieCardType) => {
@@ -25,14 +25,14 @@ export const MovieCard = ({
       >
         <div className="flip-card-front absolute rounded-2xl overflow-hidden h-full w-full">
           <img
-            src={movieImageUrl}
-            alt={movieTitle}
+            src={posterUrl}
+            alt={title}
             loading="lazy"
             className="h-full w-full object-cover"
           />
           <div className="absolute flex flex-col items-center justify-center text-center gap-1 backdrop-blur-3xl bottom-0 h-30 px-2 w-full">
-            <p className="text-white font-bold mt-1">{movieTitle}</p>
-            <p className="text-slate-200">{movieDescription}</p>
+            <p className="text-white font-bold mt-1">{title}</p>
+            <p className="text-slate-200">{description}</p>
             <p>
               <span className="text-amber-200 text-sm font-bold">
                 {averageRating}
@@ -45,8 +45,8 @@ export const MovieCard = ({
         </div>
         <div className="absolute flip-card-back rounded-2xl overflow-hidden h-full w-full">
           <img
-            src={backImageUrl}
-            alt={movieTitle}
+            src={backPosterUrl}
+            alt={title}
             loading="lazy"
             className="h-full w-full object-cover"
           />

@@ -10,10 +10,10 @@ const MainFeed = () => {
       {MovieData.map((movie) => (
         <MovieCard
           key={movie.title}
-          movieImageUrl={movie.coverImage}
-          movieTitle={movie.title}
-          movieDescription={movie.genre}
-          backImageUrl={movie.poster}
+          posterUrl={movie.coverImage}
+          title={movie.title}
+          description={movie.genre}
+          backPosterUrl={movie.poster}
           positiveVotes={movie.votes.positive}
           negativeVotes={movie.votes.negative}
         />
