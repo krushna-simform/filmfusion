@@ -17,10 +17,10 @@ interface MovieDetails {
   title: string;
   description: string;
   genre: string;
-  coverImage: string;
-  poster: string;
+  posterUrl: string;
+  backPosterUrl: string;
   cast: Array<string>;
-  directorName: string | Array<string>;
+  director: string | Array<string>;
   votes: Votes;
 }
 
