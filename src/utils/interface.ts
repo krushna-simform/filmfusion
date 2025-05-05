@@ -1,8 +1,8 @@
 interface MovieCard {
-  movieImageUrl: string;
-  movieTitle: string;
-  movieDescription: string;
-  backImageUrl: string;
+  posterUrl: string;
+  title: string;
+  description: string;
+  backPosterUrl: string;
   positiveVotes: number;
   negativeVotes: number;
 }
