@@ -3,7 +3,7 @@ import { Search } from "./ui/Search.tsx";
 
 const Header = () => {
   return (
-    <header className="text-white flex justify-between py-6 lg:px-20 sm:px-3 items-center">
+    <header className="w-[70%] mx-auto text-white flex justify-between py-6 items-center">
       <div>
         <p
           className="text-[var(--primary-color)] text-4xl font-bold"
