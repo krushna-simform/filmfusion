@@ -9,13 +9,13 @@ const MainFeed = () => {
     >
       {MovieData.map((movie) => (
         <MovieCard
-          key={movie.title}
+          id={movie.id}
+          key={movie.id}
           posterUrl={movie.posterUrl}
           title={movie.title}
-          description={movie.genre}
+          genre={movie.genre}
           backPosterUrl={movie.backPosterUrl}
-          positiveVotes={movie.votes.positive}
-          negativeVotes={movie.votes.negative}
+          votes={movie.votes}
         />
       ))}
     </div>
