@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router";
 import type { MovieDetails } from "../utils/interface";
 
 const formatVotes = (votes: number): string => {
@@ -12,12 +13,18 @@ export const MovieCard = ({
   backPosterUrl,
   votes,
 }: Omit<MovieDetails, "cast" | "director" | "description">) => {
+  const navigate = useNavigate();
+
+  const cardClickHandler = () => {
+    navigate(`/details/${id}`);
+  };
+
   const totalVotes = votes.positive + votes.negative;
   const formattedTotalVotes = formatVotes(totalVotes);
   const averageRating = ((votes.positive / totalVotes) * 10).toFixed(1);
 
   return (
-    <div className="flip-card w-64 h-110">
+    <div className="flip-card w-64 h-110" onClick={cardClickHandler}>
       <div
         className="flip-card-inner h-full w-full"
         tabIndex={0}
