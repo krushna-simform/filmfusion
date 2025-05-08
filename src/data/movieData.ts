@@ -332,7 +332,7 @@ export const MovieData: Array<MovieDetails> = [
       {
         actorName: "Cillian Murphy",
         imageUrl:
-          "https://cdn.britannica.com/10/215010-050-A44F9280/Irish-actorName-Cillian-Murphy-2017.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_aS17eYLGtWhIwxOSxr1sBhKiIlqnPQT1w&s",
         role: "J. Robert Oppenheimer",
       },
       {
@@ -356,7 +356,7 @@ export const MovieData: Array<MovieDetails> = [
       {
         actorName: "Florence Pugh",
         imageUrl:
-          "https://cdn.britannica.com/20/217320-050-181C95DC/English-actorName-Florence-Pugh-2019.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/2/21/Florence_Pugh_at_the_2024_Toronto_International_Film_Festival_17_%28cropped%29.jpg",
         role: "Jean Tatlock",
       },
     ],
