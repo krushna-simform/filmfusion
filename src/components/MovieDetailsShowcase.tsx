@@ -2,6 +2,7 @@ import type { MovieDetails } from "../utils/interface";
 import { DetailsPageMovieCard } from "./DetailsPageMovieCard";
 import { Rating } from "./ui/Rating";
 import { Button } from "./ui/Button";
+import { useNavigate } from "react-router";
 
 export const MovieDetailsShowcase = ({
   id,
@@ -13,6 +14,12 @@ export const MovieDetailsShowcase = ({
   MovieDetails,
   "id" | "genre" | "title" | "votes" | "backPosterUrl"
 >) => {
+  const navigate = useNavigate();
+
+  const bookTicketButtonHandler = () => {
+    navigate(`/booking/${id}`);
+  };
+
   return (
     <div className="relative w-full h-[28rem] flex items-center text-white">
       <div
@@ -32,7 +39,9 @@ export const MovieDetailsShowcase = ({
             fontSize="2xl"
           />
           <p className="text-xl text-gray-300">{genre}</p>
-          <Button children="Book Ticket" ariaLabel="Book Ticket" key={id} />
+          <div onClick={bookTicketButtonHandler}>
+            <Button children="Book Ticket" ariaLabel="Book Ticket" key={id} />
+          </div>
         </div>
       </div>
     </div>
