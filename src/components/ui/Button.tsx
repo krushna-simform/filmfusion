@@ -1,15 +1,15 @@
-interface ButtonType {
+interface ButtonProps {
   ariaLabel: string;
-  innerText: string;
+  children: React.ReactNode;
 }
 
-export const Button = ({ ariaLabel, innerText }: ButtonType) => {
+export const Button = ({ ariaLabel, children }: ButtonProps) => {
   return (
     <button
-      className={`bg-[var(--primary-color)] py-2 px-4 text-lg rounded-lg cursor-pointer hover:bg-[var(--secondary-color)] transition ease-in-out`}
+      className="px-6 py-2 bg-[var(--primary-color)] cursor-pointer hover:brightness-90 rounded-md text-white font-medium"
       aria-label={`${ariaLabel} Button`}
     >
-      {innerText}
+      {children}
     </button>
   );
 };

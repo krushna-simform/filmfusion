@@ -3,7 +3,7 @@ import { Search } from "./ui/Search.tsx";
 
 const Header = () => {
   return (
-    <header className="text-white flex justify-between py-6 lg:px-20 sm:px-3">
+    <header className="text-white flex justify-between py-6 lg:px-20 sm:px-3 items-center">
       <div>
         <p
           className="text-[var(--primary-color)] text-4xl font-bold"
@@ -14,8 +14,7 @@ const Header = () => {
       </div>
       <div className="flex items-center gap-4">
         <Search />
-        <Button ariaLabel="Login" innerText="Login" />
-        <Button ariaLabel="Register" innerText="Register" />
+        <Button ariaLabel="Login" children="Login" />
       </div>
     </header>
   );
