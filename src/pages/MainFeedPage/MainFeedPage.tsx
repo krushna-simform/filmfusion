@@ -1,5 +1,5 @@
-import { MovieCard } from "./MovieCard";
-import { MovieData } from "../utils/movieData";
+import { MovieCard } from "../../components/MovieCard";
+import { MovieData } from "../../data/movieData";
 
 const MainFeed = () => {
   return (

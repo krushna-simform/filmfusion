@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import MainFeed from "./components/MainFeed";
+import MainFeed from "./pages/MainFeedPage/MainFeedPage";
 
 function App() {
   return (
