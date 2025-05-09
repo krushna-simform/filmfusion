@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { Button } from "./ui/Button.tsx";
 import { Search } from "./ui/Search.tsx";
 
@@ -5,9 +6,11 @@ const Header = () => {
   return (
     <header className="w-[70%] mx-auto text-white flex justify-between py-6 items-center">
       <div>
-        <h1 className="text-[var(--primary-color)] text-4xl font-bold">
-          FilmFusion
-        </h1>
+        <Link to="/">
+          <h1 className="text-[var(--primary-color)] text-4xl font-bold">
+            FilmFusion
+          </h1>
+        </Link>
       </div>
       <div className="flex items-center gap-4">
         <Search />
