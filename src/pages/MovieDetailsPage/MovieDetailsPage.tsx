@@ -3,6 +3,7 @@ import { MovieDetailsShowcase } from "../../components/MovieDetailsShowcase";
 import { MovieData } from "../../data/movieData";
 import type { MovieDetails } from "../../utils/interface";
 import { MovieDetailsDescription } from "../../components/MovieDetailsDescription";
+import { PageNotFound } from "../../components/ui/PageNotFound";
 
 const MovieDetails = () => {
   const { movieId } = useParams();
@@ -33,7 +34,7 @@ const MovieDetails = () => {
           />
         </div>
       ) : (
-        <p className="text-white">Movie data is not found</p>
+        <PageNotFound />
       )}
     </div>
   );

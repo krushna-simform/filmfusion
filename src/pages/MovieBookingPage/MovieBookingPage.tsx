@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { MovieData } from "../../data/movieData";
 import type { MovieDetails } from "../../utils/interface";
 import { MovieBook } from "../../components/MovieBooking";
+import { PageNotFound } from "../../components/ui/PageNotFound";
 
 const MovieBooking = () => {
   const { movieId } = useParams();
@@ -17,7 +18,7 @@ const MovieBooking = () => {
       {movie ? (
         <MovieBook title={movie.title} genre={movie.genre} />
       ) : (
-        <p className="text-white">Movie data is not found</p>
+        <PageNotFound />
       )}
     </div>
   );
