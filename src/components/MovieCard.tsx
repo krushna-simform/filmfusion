@@ -18,7 +18,10 @@ export const MovieCard = ({
   };
 
   return (
-    <div className="flip-card w-64 h-110" onClick={cardClickHandler}>
+    <div
+      className="flip-card w-64 h-110 cursor-pointer"
+      onClick={cardClickHandler}
+    >
       <div
         className="flip-card-inner h-full w-full"
         tabIndex={0}

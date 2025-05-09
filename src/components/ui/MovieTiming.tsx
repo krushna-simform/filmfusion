@@ -23,7 +23,7 @@ export const MovieTiming = () => {
         {timing.map((item, idx) => (
           <p
             key={idx}
-            className="text-white border border-white px-4 py-2 font-semibold rounded-sm whitespace-nowrap hover:bg-white hover:text-black transition"
+            className="text-white border border-white px-4 py-2 font-semibold rounded-sm whitespace-nowrap hover:bg-white hover:text-black transition cursor-pointer"
             aria-label="Movie time"
           >
             {item}
