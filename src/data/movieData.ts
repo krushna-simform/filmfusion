@@ -8,9 +8,9 @@ export const MovieData: Array<MovieDetails> = [
       "The Avengers face their most powerful enemy yet—Thanos, who is on a mission to collect all six Infinity Stones and wipe out half of the universe. Heroes must unite to stop him in this thrilling action-packed sci-fi adventure.",
     genre: "Action/Sci-fi",
     posterUrl:
-      "https://i.ytimg.com/vi/OvngUkG_Stw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCa8F6gB_1SWm4svhbCnYj2VNF8ww",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745950694/hq720_mqhcb6.jpg",
     backPosterUrl:
-      "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_FMjpg_UX1000_.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745950721/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM_._V1_FMjpg_UX1000__q6khwi.jpg",
     cast: [
       {
         actorName: "Robert Downey Jr.",
@@ -68,9 +68,9 @@ export const MovieData: Array<MovieDetails> = [
       "After Thanos' devastating snap, the Avengers must navigate a broken world to find a way to reverse the damage and bring back their loved ones. A powerful conclusion to the Infinity Saga.",
     genre: "Action/Sci-fi",
     posterUrl:
-      "https://c4.wallpaperflare.com/wallpaper/36/558/326/avengers-infinity-war-robert-downey-jr-tony-stark-iron-man-wallpaper-preview.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951242/avengers-infinity-war-robert-downey-jr-tony-stark-iron-man-wallpaper-preview_neun2b.jpg",
     backPosterUrl:
-      "https://rukminim3.flixcart.com/image/850/1000/jtltw280/poster/t/x/7/medium-endgame3-avengers-endgame-new-poster-for-room-office-original-imafew7m4ggkqm9r.jpeg?q=90&crop=false",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951242/medium-endgame3-avengers-endgame-new-poster-for-room-office-original-imafew7m4ggkqm9r_qyire3.webp",
     cast: [
       {
         actorName: "Robert Downey Jr.",
@@ -124,9 +124,9 @@ export const MovieData: Array<MovieDetails> = [
       "Harry faces danger from escaped prisoner Sirius Black while uncovering the truth about his family's past. A magical journey packed with mystery and intrigue.",
     genre: "Family/Fantasy",
     posterUrl:
-      "https://i.pinimg.com/474x/51/26/63/51266379e60e6333017b74486d33ea19.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951241/51266379e60e6333017b74486d33ea19_ccquhf.jpg",
     backPosterUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951252/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw_._V1__mnlhnc.jpg",
     cast: [
       {
         actorName: "Daniel Radcliffe",
@@ -173,9 +173,10 @@ export const MovieData: Array<MovieDetails> = [
     description:
       "Surgeon Stephen Strange's life takes an otherworldly turn after an accident leads him to discover the mystic arts and become the Sorcerer Supreme, protecting Earth from magical threats.",
     genre: "Fantasy/Action",
-    posterUrl: "https://i.redd.it/rww3fgutaxp01.jpg",
+    posterUrl:
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951241/rww3fgutaxp01_s4yx5u.jpg",
     backPosterUrl:
-      "https://i.pinimg.com/736x/0f/f3/c9/0ff3c9f36e5a4cc6db99981f33b964d1.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951242/0ff3c9f36e5a4cc6db99981f33b964d1_piyz8d.jpg",
     cast: [
       {
         actorName: "Benedict Cumberbatch",
@@ -198,7 +199,7 @@ export const MovieData: Array<MovieDetails> = [
       {
         actorName: "Benedict Wong",
         imageUrl:
-          "https://media.themoviedb.org/t/p/w500/yYfLyrC2CE6vBWSJfkpuVKL2POM.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoOTR8CGzVs608UtydW90lJ9ysr6396CNNXw&s",
         role: "Wong",
       },
       {
@@ -223,9 +224,10 @@ export const MovieData: Array<MovieDetails> = [
     description:
       "Ethan Hunt takes on his most challenging mission yet, confronting dark forces and breathtaking action to uncover a final reckoning in this edge-of-your-seat thriller.",
     genre: "Action/Thriller",
-    posterUrl: "https://cdn.kinocheck.com/i/w=1200/zx68usyjqz.jpg",
+    posterUrl:
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951241/zx68usyjqz_nrgsyr.jpg",
     backPosterUrl:
-      "https://posterspy.com/wp-content/uploads/2024/11/Poster-Mission-Impossible-final-reckoning-Grievity-V2.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951241/Poster-Mission-Impossible-final-reckoning-Grievity-V2_y5hdd9.jpg",
     cast: [
       {
         actorName: "Tom Cruise",
@@ -274,9 +276,9 @@ export const MovieData: Array<MovieDetails> = [
       "Doctor Strange embarks on a mind-bending journey through alternate dimensions, encountering new allies and foes in an action-filled quest to save the multiverse.",
     genre: "Fantasy/Action",
     posterUrl:
-      "https://i.pinimg.com/736x/5f/78/16/5f7816d32e221fa134ec60fd4fab2777.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951241/5f7816d32e221fa134ec60fd4fab2777_ypoail.jpg",
     backPosterUrl:
-      "https://m.media-amazon.com/images/I/71BisddDMfL._AC_UF1000,1000_QL80_.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951241/71BisddDMfL._AC_UF1000_1000_QL80__kloyhr.jpg",
     cast: [
       {
         actorName: "Benedict Cumberbatch",
@@ -299,7 +301,7 @@ export const MovieData: Array<MovieDetails> = [
       {
         actorName: "Benedict Wong",
         imageUrl:
-          "https://media.themoviedb.org/t/p/w500/yYfLyrC2CE6vBWSJfkpuVKL2POM.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoOTR8CGzVs608UtydW90lJ9ysr6396CNNXw&s",
         role: "Wong",
       },
       {
@@ -325,9 +327,9 @@ export const MovieData: Array<MovieDetails> = [
       "A gripping historical drama about J. Robert Oppenheimer, the father of the atomic bomb, as he grapples with the moral and scientific challenges of his groundbreaking invention.",
     genre: "Thriller/Historical Drama",
     posterUrl:
-      "https://www.thetimes.com/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F8a94d29c-2566-11ee-bb13-0dec735736e8.jpg?crop=7956%2C5304%2C0%2C0",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951261/_methode_sundaytimes_prod_web_bin_8a94d29c-2566-11ee-bb13-0dec735736e8_plgfos.jpg",
     backPosterUrl:
-      "https://imgs.search.brave.com/KD40eyuqHVYkyqpXY4wKqFwmDu5GjlvLlEJW0l41G_8/rs:fit:500:0:0:0/g:ce/aHR0cDovL3d3dy5p/bXBhd2FyZHMuY29t/LzIwMjMvcG9zdGVy/cy9vcHBlbmhlaW1l/cl92ZXIzLmpwZw",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951241/oppenheimer_ver3_um32lk.webp",
     cast: [
       {
         actorName: "Cillian Murphy",
@@ -376,9 +378,9 @@ export const MovieData: Array<MovieDetails> = [
       "A tense thriller where a hunter's discovery of a drug deal gone wrong sets off a violent chain of events, with a chilling hitman and a weary sheriff at its core.",
     genre: "Thriller/Western",
     posterUrl:
-      "https://m.media-amazon.com/images/M/MV5BMjAxOTU1NzgyMl5BMl5BanBnXkFtZTYwNzM0MTM3._V1_.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951240/MV5BMjAxOTU1NzgyMl5BMl5BanBnXkFtZTYwNzM0MTM3._V1__pygt61.jpg",
     backPosterUrl:
-      "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/34/2019/11/13130306/No-Country-Poster.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951241/No-Country-Poster_wcbzmt.jpg",
     cast: [
       {
         actorName: "Tommy Lee Jones",
@@ -432,9 +434,9 @@ export const MovieData: Array<MovieDetails> = [
       "Ace pilot Maverick returns to train a new generation of fighter pilots while confronting the ghosts of his past in this high-octane aerial adventure.",
     genre: "Action/Adventure",
     posterUrl:
-      "https://m.media-amazon.com/images/M/MV5BZmNiNGVlNGYtMDVjMy00MjNmLWI3ODYtM2NkNWMxNmVkMjBjXkEyXkFqcGc@._V1_.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951942/MV5BZmNiNGVlNGYtMDVjMy00MjNmLWI3ODYtM2NkNWMxNmVkMjBjXkEyXkFqcGc_._V1__1_1_jengeo.jpg",
     backPosterUrl:
-      "https://m.media-amazon.com/images/I/71BokibfVUL._AC_UF894,1000_QL80_.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951240/71BokibfVUL._AC_UF894_1000_QL80__hrezia.jpg",
     cast: [
       {
         actorName: "Tom Cruise",
@@ -482,9 +484,9 @@ export const MovieData: Array<MovieDetails> = [
       "Spider-Man faces his greatest challenge yet as multiverse villains wreak havoc, and allies from other dimensions lend a helping hand in this exhilarating superhero spectacle.",
     genre: "Action/Sci-fi",
     posterUrl:
-      "https://cdn.theatlantic.com/thumbor/q-kk4nfMcCheC0ObDQHtnF356VY=/400x0:1806x1406/1080x1080/media/img/mt/2021/12/DF_12080_rv2/original.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951240/original_q83bqe.avif",
     backPosterUrl:
-      "https://cdn.marvel.com/content/1x/snh_online_6072x9000_posed_01.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951241/snh_online_6072x9000_posed_01_pilhlt.jpg",
     cast: [
       {
         actorName: "Tom Holland",
@@ -533,9 +535,9 @@ export const MovieData: Array<MovieDetails> = [
       "A rebellious young boy born with unique powers battles to change his fate and save his world in this visually stunning fantasy adventure.",
     genre: "Fantasy/Adventure",
     posterUrl:
-      "https://i.pinimg.com/736x/a4/a9/1f/a4a91fbdff3b822df2d2574944af3bcb.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951240/a4a91fbdff3b822df2d2574944af3bcb_iwtcit.jpg",
     backPosterUrl:
-      "https://upload.wikimedia.org/wikipedia/en/a/a2/Nezha_film_poster.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951240/Nezha_film_poster_wrhel0.jpg",
     cast: [
       {
         actorName: "Yanting Lü",
@@ -578,9 +580,9 @@ export const MovieData: Array<MovieDetails> = [
       "A heartwarming story of a father and son as they overcome homelessness and challenges, proving the power of determination and love.",
     genre: "Family/Drama",
     posterUrl:
-      "https://image.tmdb.org/t/p/original/5jhG1lTgV0MS6tDkBMQSSitttTT.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951251/5jhG1lTgV0MS6tDkBMQSSitttTT_a99rmy.webp",
     backPosterUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951252/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw_._V1__ghnx7k.jpg",
     cast: [
       {
         actorName: "Will Smith",
@@ -629,9 +631,9 @@ export const MovieData: Array<MovieDetails> = [
       "An ambitious action-packed sci-fi about a video game villain brought to life, who must be stopped by a father and son duo in this Bollywood extravaganza.",
     genre: "Action/Sci-fi",
     posterUrl:
-      "https://w0.peakpx.com/wallpaper/398/515/HD-wallpaper-shahrukh-khan-new-ra-one-movie-look-shahrukh-khan-ra-one-movie-look-shahrukh-khan-indian-actor-srk-king-khan-hero.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951251/HD-wallpaper-shahrukh-khan-new-ra-one-movie-look-shahrukh-khan-ra-one-movie-look-shahrukh-khan-indian-actor-srk-king-khan-hero_chbipw.jpg",
     backPosterUrl:
-      "https://rukminim2.flixcart.com/image/850/1000/l2dmky80/poster/z/r/e/small-poster-ra-one-sl1251-wall-poster-13x19-inches-matte-original-imagdqezfpzvcz75.jpeg?q=90&crop=false",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951250/small-poster-ra-one-sl1251-wall-poster-13x19-inches-matte-original-imagdqezfpzvcz75_tpwson.webp",
     cast: [
       {
         actorName: "Shah Rukh Khan",
@@ -668,9 +670,9 @@ export const MovieData: Array<MovieDetails> = [
       "A Roman general seeks vengeance against the corrupt emperor who betrayed him, in an epic tale of honor, revenge, and survival.",
     genre: "Action/Adventure",
     posterUrl:
-      "https://s.yimg.com/ny/api/res/1.2/gTbQ21ATu6iXrzVRo6yK7A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MA--/https://media.zenfs.com/en/people_218/7ab5f7b8e69e152fd99c997e94b419d0",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951250/7ab5f7b8e69e152fd99c997e94b419d0_t8w1at.jpg",
     backPosterUrl:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Gladiator_%282000_film_poster%29.png/250px-Gladiator_%282000_film_poster%29.png",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951248/Gladiator__2000_film_poster_x0e9zw.png",
     cast: [
       {
         actorName: "Russell Crowe",
@@ -718,9 +720,9 @@ export const MovieData: Array<MovieDetails> = [
       "Batman faces his greatest psychological and physical challenge yet as he battles the Joker, a criminal mastermind intent on unleashing chaos in Gotham City.",
     genre: "Action/Crime",
     posterUrl:
-      "https://people.com/thmb/oz-pfgzByv4DqJ6w4jiiECCqv-I=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(667x0:669x2)/heath-ledger21-1-2000-2e816830729b4f3d8315f7bd192f42e3.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951247/heath-ledger21-1-2000-2e816830729b4f3d8315f7bd192f42e3_ihql2p.jpg",
     backPosterUrl:
-      "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951247/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw_._V1_FMjpg_UX1000__zxozc9.jpg",
     cast: [
       {
         actorName: "Christian Bale",
@@ -769,9 +771,9 @@ export const MovieData: Array<MovieDetails> = [
       "A young blacksmith becomes a knight and embarks on a journey to defend Jerusalem during the Crusades in this epic tale of courage and faith.",
     genre: "Adventure/War",
     posterUrl:
-      "https://i.pinimg.com/736x/ba/a5/c9/baa5c98749ffb09d9302568b88e067f8.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951246/baa5c98749ffb09d9302568b88e067f8_wfal7t.jpg",
     backPosterUrl:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcY33gVGSeNoXPreHLOMwBeKQ4Ohs7mXadaw&s",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951246/images_o3rg2u.jpg",
     cast: [
       {
         actorName: "Orlando Bloom",
@@ -820,9 +822,9 @@ export const MovieData: Array<MovieDetails> = [
       "A coming-of-age drama that follows a teenager's journey to pursue his dreams and find freedom despite living under an oppressive father.",
     genre: "Drama/Melodrama",
     posterUrl:
-      "https://img.mensxp.com/media/content/2023/Jul/fc_64b15b1061f01.jpeg?w=720&h=1280&cc=1",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951246/fc_64b15b1061f01_nooxhu.webp",
     backPosterUrl:
-      "https://occ-0-191-2433.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQ0gYg9nK8QPzzUjKyIzOTd3zvV8F_Uw6CtXHEy3esHFrMEmqpi4oZRQI468fWRQb_CVM6vjhBrOOplYTq3RON_7SiCGD2cnzkzm.jpg?r=cae",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951245/AAAABQ0gYg9nK8QPzzUjKyIzOTd3zvV8F_Uw6CtXHEy3esHFrMEmqpi4oZRQI468fWRQb_CVM6vjhBrOOplYTq3RON_7SiCGD2cnzkzm_jpi8bm.jpg",
     cast: [
       {
         actorName: "Rajat Barmecha",
@@ -871,9 +873,9 @@ export const MovieData: Array<MovieDetails> = [
       "A young man embarks on a quest for justice as a masked vigilante, tackling corruption and crime in this gritty superhero drama.",
     genre: "Action/Drama",
     posterUrl:
-      "https://media.assettype.com/film-companion%2Fimport%2Fwp-content%2Fuploads%2F2018%2F06%2FFilm_Companion_Review_Rahul_Bhavesh-Joshi_lead_1.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951245/film-companion_import_wp-content_uploads_2018_06_Film_Companion_Review_Rahul_Bhavesh-Joshi_lead_1_egmzyv.avif",
     backPosterUrl:
-      "https://upload.wikimedia.org/wikipedia/en/6/64/Bhavesh_Joshi.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951245/Bhavesh_Joshi_cowedy.jpg",
     cast: [
       {
         actorName: "Harshvardhan Kapoor",
@@ -916,9 +918,9 @@ export const MovieData: Array<MovieDetails> = [
       "Set in 18th century India, a relentless bounty hunter seeks vengeance in this atmospheric and action-packed period thriller.",
     genre: "Action/Thriller",
     posterUrl:
-      "https://assets.telegraphindia.com/telegraph/30d260d8-1bab-4a11-ad57-57765d029528.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951243/30d260d8-1bab-4a11-ad57-57765d029528_mkdb0x.jpg",
     backPosterUrl:
-      "https://m.media-amazon.com/images/S/pv-target-images/c3bdf73f6c82a3ceca77a558f3b980fd8d546e352e20c7525260d7026914d832.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951244/c3bdf73f6c82a3ceca77a558f3b980fd8d546e352e20c7525260d7026914d832_yje9kt.jpg",
     cast: [
       {
         actorName: "Saif Ali Khan",
@@ -961,9 +963,9 @@ export const MovieData: Array<MovieDetails> = [
       "A stylish and intense drama about a man's battle against powerful foes, with a retro aesthetic and powerful action sequences.",
     genre: "Action/Drama",
     posterUrl:
-      "https://assets.telegraphindia.com/telegraph/2024/Dec/1735112831_retro.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951243/1735112831_retro_zyhuy4.jpg",
     backPosterUrl:
-      "https://cdn.123telugu.com/content/wp-content/uploads/2025/04/retro-3.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951242/retro-3_yeemnj.jpg",
     cast: [
       {
         actorName: "Suriya",
@@ -1006,9 +1008,9 @@ export const MovieData: Array<MovieDetails> = [
       "An action-packed comedy where an eccentric team takes on chaotic situations, blending hilarious antics with thrilling sequences.",
     genre: "Action/Comedy",
     posterUrl:
-      "https://image.tmdb.org/t/p/original/5qBCsbbQQ1AP5O0xj9vguaJPlwz.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951242/5qBCsbbQQ1AP5O0xj9vguaJPlwz_xiuntx.webp",
     backPosterUrl:
-      "https://image.tmdb.org/t/p/original/zzq0aDpAltmyPsMD9vhSMe8F8T5.jpg",
+      "https://res.cloudinary.com/dscum3jbj/image/upload/v1745951242/zzq0aDpAltmyPsMD9vhSMe8F8T5_up5pde.webp",
     cast: [
       {
         actorName: "Fahadh Faasil",
