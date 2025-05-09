@@ -8,6 +8,7 @@ const Header = () => {
         <p
           className="text-[var(--primary-color)] text-4xl font-bold"
           role="heading"
+          aria-label="FilmFusion"
         >
           FilmFusion
         </p>
