@@ -7,6 +7,7 @@ import { createBrowserRouter } from "react-router";
 import MovieDetails from "./pages/MovieDetailsPage/MovieDetailsPage.tsx";
 import MovieBooking from "./pages/MovieBookingPage/MovieBookingPage.tsx";
 import { RouterProvider } from "react-router-dom";
+import { PageNotFound } from "./components/ui/PageNotFound.tsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/booking/:movieId",
         element: <MovieBooking />,
+      },
+      {
+        path: "*",
+        element: <PageNotFound />,
       },
     ],
   },
