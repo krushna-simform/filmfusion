@@ -19,12 +19,13 @@ export const Rating = ({
   return (
     <p
       aria-label={`Rating: ${averageRating} out of 10, based on ${formattedTotalVotes} votes`}
+      className="flex gap-0.5"
     >
       <span className={`text-amber-200 text-${fontSize} font-bold`}>
         {averageRating}/10
       </span>
       <span className={`text-gray-200 text-${fontSize} font-bold ml-2.5`}>
-        {formattedTotalVotes}
+        {formattedTotalVotes} Votes
       </span>
     </p>
   );
