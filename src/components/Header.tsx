@@ -1,8 +1,10 @@
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 import { Button } from "./ui/Button.tsx";
 import { Search } from "./ui/Search.tsx";
 
 const Header = () => {
+  const location = useLocation();
+
   return (
     <header className="w-[70%] mx-auto text-white flex justify-between py-6 items-center">
       <div>
@@ -13,7 +15,7 @@ const Header = () => {
         </Link>
       </div>
       <div className="flex items-center gap-4">
-        <Search />
+        {location.pathname === "/" && <Search />}
         <Button ariaLabel="Login" children="Login" />
       </div>
     </header>
