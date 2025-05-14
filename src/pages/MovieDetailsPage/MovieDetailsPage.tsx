@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { MovieDetailsShowcase } from "../../components/MovieDetailsShowcase";
-import { MovieData } from "../../data/movieData";
+import { MovieData } from "../../mockData/movieData";
 import type { MovieDetails } from "../../types/interface";
 import { MovieDescription } from "../../components/MovieDescription";
 import { PageNotFound } from "../../components/ui/PageNotFound";

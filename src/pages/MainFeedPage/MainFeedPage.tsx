@@ -1,5 +1,5 @@
 import { MovieCard } from "../../components/MovieCard";
-import { MovieData } from "../../data/movieData";
+import { MovieData } from "../../mockData/movieData";
 
 const MainFeed = () => {
   return (

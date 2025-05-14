@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { useNavigate } from "react-router";
-import { MovieData } from "../../data/movieData";
+import { MovieData } from "../../mockData/movieData";
 
 export const Search = () => {
   const [searchMovie, setSearchMovie] = useState("");
