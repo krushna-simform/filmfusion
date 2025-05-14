@@ -5,7 +5,7 @@ import App from "./App.tsx";
 import MainFeed from "./pages/MainFeedPage/MainFeed.tsx";
 import { createBrowserRouter } from "react-router";
 import MovieDetails from "./pages/MovieDetailsPage/MovieDetailsPage.tsx";
-import MovieBooking from "./pages/MovieBookingPage/MovieBookingPage.tsx";
+import MovieBooking from "./pages/MovieBookingPage/MovieBooking.tsx";
 import { RouterProvider } from "react-router-dom";
 import { PageNotFound } from "./components/ui/PageNotFound.tsx";
 
