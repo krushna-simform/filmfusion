@@ -1,4 +1,4 @@
-import type { Actor } from "../../utils/interface";
+import type { Actor } from "../../types/interface";
 import { Image } from "./Image";
 
 export const Cast = ({ cast }: { cast: Array<Actor> }) => {

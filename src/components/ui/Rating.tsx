@@ -1,4 +1,4 @@
-import type { Votes } from "../../utils/interface";
+import type { Votes } from "../../types/interface";
 
 interface RatingType extends Votes {
   fontSize: "sm" | "lg" | "xl" | "2xl" | "3xl" | "4xl";

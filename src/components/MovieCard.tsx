@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import type { MovieDetails } from "../utils/interface";
+import type { MovieDetails } from "../types/interface";
 import { Image } from "./ui/Image";
 import { Rating } from "./ui/Rating";
 

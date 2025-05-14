@@ -1,4 +1,4 @@
-import type { MovieDetails } from "../utils/interface";
+import type { MovieDetails } from "../types/interface";
 import { DetailsPageMovieCard } from "./DetailsPageMovieCard";
 import { Rating } from "./ui/Rating";
 import { Button } from "./ui/Button";

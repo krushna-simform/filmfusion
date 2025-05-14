@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { MovieDetailsShowcase } from "../../components/MovieDetailsShowcase";
 import { MovieData } from "../../data/movieData";
-import type { MovieDetails } from "../../utils/interface";
+import type { MovieDetails } from "../../types/interface";
 import { MovieDetailsDescription } from "../../components/MovieDetailsDescription";
 import { PageNotFound } from "../../components/ui/PageNotFound";
 

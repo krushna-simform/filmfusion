@@ -1,4 +1,4 @@
-import type { MovieDetails } from "../utils/interface";
+import type { MovieDetails } from "../types/interface";
 import { MovieBookingSeats } from "./ui/MovieBookingSeats";
 import { MovieTiming } from "./ui/MovieTiming";
 

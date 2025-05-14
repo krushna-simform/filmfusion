@@ -1,4 +1,4 @@
-import type { Director as DirectorType } from "../../utils/interface";
+import type { Director as DirectorType } from "../../types/interface";
 import { Image } from "./Image";
 
 export const Director = ({ director }: { director: Array<DirectorType> }) => {
