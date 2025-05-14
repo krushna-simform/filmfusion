@@ -2,10 +2,9 @@ import type { MovieDetails } from "../types/interface";
 import { MovieBookingSeats } from "./ui/MovieBookingSeats";
 import { MovieTiming } from "./ui/MovieTiming";
 
-export const MovieBook = ({
-  title,
-  genre,
-}: Pick<MovieDetails, "title" | "genre">) => {
+type MovieBookProps = Pick<MovieDetails, "title" | "genre">;
+
+export const MovieBook = ({ title, genre }: MovieBookProps) => {
   return (
     <div className="pt-5">
       <div className="max-w-[70%] mx-auto space-y-5">
