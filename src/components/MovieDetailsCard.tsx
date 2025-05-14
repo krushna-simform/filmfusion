@@ -3,7 +3,7 @@ import { Image } from "./ui/Image";
 
 type MovieDetailsCardProps = Pick<MovieDetails, "title" | "backPosterUrl">;
 
-export const DetailsPageMovieCard = ({
+export const MovieDetailsCard = ({
   title,
   backPosterUrl,
 }: MovieDetailsCardProps) => {

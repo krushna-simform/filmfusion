@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router";
 import type { MovieDetails } from "../types/interface";
-import { DetailsPageMovieCard } from "./DetailsPageMovieCard";
+import { MovieDetailsCard } from "./MovieDetailsCard";
 import { Rating } from "./ui/Rating";
 import { Button } from "./ui/Button";
 
@@ -30,7 +30,7 @@ export const MovieDetailsShowcase = ({
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/90 to-transparent backdrop-blur-sm" />
 
       <div className="relative z-10 flex flex-col md:flex-row w-[90%] md:w-[70%] mx-auto items-center space-x-0 md:space-x-8">
-        <DetailsPageMovieCard backPosterUrl={backPosterUrl} title={title} />
+        <MovieDetailsCard backPosterUrl={backPosterUrl} title={title} />
         <div className="space-y-3 max-w-xl text-center md:text-left">
           <h1 className="text-3xl md:text-4xl font-bold">{title}</h1>
           <Rating
