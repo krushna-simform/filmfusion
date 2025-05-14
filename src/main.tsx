@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
-import MainFeed from "./pages/MainFeedPage/MainFeedPage.tsx";
+import MainFeed from "./pages/MainFeedPage/MainFeed.tsx";
 import { createBrowserRouter } from "react-router";
 import MovieDetails from "./pages/MovieDetailsPage/MovieDetailsPage.tsx";
 import MovieBooking from "./pages/MovieBookingPage/MovieBookingPage.tsx";
