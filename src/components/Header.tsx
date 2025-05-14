@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router";
-import { Button } from "./ui/Button.tsx";
-import { Search } from "./ui/Search.tsx";
+import { Button } from "./ui/Button";
+import { Search } from "./ui/Search";
 
 const Header = () => {
   const location = useLocation();
