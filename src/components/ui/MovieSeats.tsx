@@ -18,7 +18,7 @@ const rows = [
   [21],
 ];
 
-export const MovieBookingSeats = () => {
+export const MovieSeats = () => {
   return (
     <div className="py-5 mx-auto">
       <div className="w-[70%] mx-auto bg-[#2d135d] flex flex-col items-center py-10 rounded-lg">

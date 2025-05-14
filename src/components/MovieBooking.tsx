@@ -1,5 +1,5 @@
 import type { MovieDetails } from "../types/interface";
-import { MovieBookingSeats } from "./ui/MovieBookingSeats";
+import { MovieSeats } from "./ui/MovieSeats";
 import { MovieTiming } from "./ui/MovieTiming";
 
 type MovieBookProps = Pick<MovieDetails, "title" | "genre">;
@@ -14,7 +14,7 @@ export const MovieBook = ({ title, genre }: MovieBookProps) => {
         </span>
       </div>
       <MovieTiming />
-      <MovieBookingSeats />
+      <MovieSeats />
     </div>
   );
 };
