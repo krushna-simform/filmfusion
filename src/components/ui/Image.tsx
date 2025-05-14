@@ -1,9 +1,9 @@
-interface ImageType {
+interface ImageProps {
   source: string;
   alt: string;
 }
 
-export const Image = ({ source, alt }: ImageType) => {
+export const Image = ({ source, alt }: ImageProps) => {
   return (
     <img
       src={source}
