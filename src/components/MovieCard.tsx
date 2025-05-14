@@ -3,6 +3,8 @@ import type { MovieDetails } from "../types/interface";
 import { Image } from "./ui/Image";
 import { Rating } from "./ui/Rating";
 
+type MovieCardProps = Omit<MovieDetails, "cast" | "director" | "description">;
+
 export const MovieCard = ({
   id,
   title,
@@ -10,7 +12,7 @@ export const MovieCard = ({
   posterUrl,
   backPosterUrl,
   votes,
-}: Omit<MovieDetails, "cast" | "director" | "description">) => {
+}: MovieCardProps) => {
   const navigate = useNavigate();
 
   const cardClickHandler = () => {
