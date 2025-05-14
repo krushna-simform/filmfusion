@@ -1,8 +1,8 @@
+import { useNavigate } from "react-router";
 import type { MovieDetails } from "../types/interface";
 import { DetailsPageMovieCard } from "./DetailsPageMovieCard";
 import { Rating } from "./ui/Rating";
 import { Button } from "./ui/Button";
-import { useNavigate } from "react-router";
 
 export const MovieDetailsShowcase = ({
   id,
