@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { MovieDetailsShowcase } from "../../components/MovieDetailsShowcase";
 import { MovieData } from "../../data/movieData";
 import type { MovieDetails } from "../../types/interface";
-import { MovieDetailsDescription } from "../../components/MovieDetailsDescription";
+import { MovieDescription } from "../../components/MovieDescription";
 import { PageNotFound } from "../../components/ui/PageNotFound";
 
 const MovieDetails = () => {
@@ -26,7 +26,7 @@ const MovieDetails = () => {
             genre={movie.genre}
             votes={movie.votes}
           />
-          <MovieDetailsDescription
+          <MovieDescription
             key={movie.id}
             description={movie.description}
             cast={movie.cast}

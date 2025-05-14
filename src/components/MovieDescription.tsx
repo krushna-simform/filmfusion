@@ -8,7 +8,7 @@ type MovieDescriptionProps = Pick<
   "description" | "cast" | "director"
 >;
 
-export const MovieDetailsDescription = ({
+export const MovieDescription = ({
   description,
   cast,
   director,
