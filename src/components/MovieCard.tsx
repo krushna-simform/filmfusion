@@ -1,55 +1,48 @@
-import type { MovieCard as MovieCardType } from "../utils/interface";
+import { useNavigate } from "react-router";
+import type { MovieDetails } from "../types/interface";
+import { Image } from "./ui/Image";
+import { Rating } from "./ui/Rating";
 
-const formatVotes = (votes: number): string => {
-  return votes >= 1000 ? (votes / 1000).toFixed(1) + "k" : votes.toString();
-};
+type MovieCardProps = Omit<MovieDetails, "cast" | "director" | "description">;
 
 export const MovieCard = ({
-  posterUrl,
+  id,
   title,
-  description,
+  genre,
+  posterUrl,
   backPosterUrl,
-  positiveVotes,
-  negativeVotes,
-}: MovieCardType) => {
-  const totalVotes = positiveVotes + negativeVotes;
-  const formattedTotalVotes = formatVotes(totalVotes);
-  const averageRating = ((positiveVotes / totalVotes) * 10).toFixed(1);
+  votes,
+}: MovieCardProps) => {
+  const navigate = useNavigate();
+
+  const cardClickHandler = () => {
+    navigate(`/details/${id}`);
+  };
 
   return (
-    <div className="flip-card w-64 h-110">
+    <div
+      className="flip-card w-64 h-110 cursor-pointer"
+      onClick={cardClickHandler}
+    >
       <div
         className="flip-card-inner h-full w-full"
         tabIndex={0}
         aria-label="Flip movie card"
       >
         <div className="flip-card-front absolute rounded-2xl overflow-hidden h-full w-full">
-          <img
-            src={posterUrl}
-            alt={title}
-            loading="lazy"
-            className="h-full w-full object-cover"
-          />
+          <Image source={posterUrl} alt={title} />
           <div className="absolute flex flex-col items-center justify-center text-center gap-1 backdrop-blur-3xl bottom-0 h-30 px-2 w-full">
             <p className="text-white font-bold mt-1">{title}</p>
-            <p className="text-slate-200">{description}</p>
-            <p>
-              <span className="text-amber-200 text-sm font-bold">
-                {averageRating}
-              </span>
-              <span className="text-gray-200 text-sm font-bold ml-2">
-                {formattedTotalVotes}
-              </span>
-            </p>
+            <p className="text-slate-200">{genre}</p>
+            <Rating
+              positive={votes.positive}
+              negative={votes.negative}
+              fontSize="sm"
+            />
           </div>
         </div>
         <div className="absolute flip-card-back rounded-2xl overflow-hidden h-full w-full">
-          <img
-            src={backPosterUrl}
-            alt={title}
-            loading="lazy"
-            className="h-full w-full object-cover"
-          />
+          <Image source={backPosterUrl} alt={title} />
         </div>
       </div>
     </div>

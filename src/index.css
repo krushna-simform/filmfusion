@@ -6,14 +6,45 @@
 }
 
 body {
-  background-image: url("/images/bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #000000;
+
   height: 100vh;
 
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+/* background gradient */
+
+body::before {
+  content: "";
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  bottom: -50%;
+  z-index: -1;
+}
+
+body::after {
+  content: "";
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  top: -50%;
+  z-index: -1;
+}
+
+body::before {
+  left: 0;
+  background: radial-gradient(ellipse at left, #cc459b90, transparent 80%);
+}
+
+body::after {
+  right: 0;
+  background: radial-gradient(ellipse at right, #cc459b90, transparent 80%);
+}
+
+/* Movie Card */
 
 .flip-card {
   perspective: 1000px;

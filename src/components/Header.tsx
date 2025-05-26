@@ -1,21 +1,22 @@
-import { Button } from "./ui/Button.tsx";
-import { Search } from "./ui/Search.tsx";
+import { Link, useLocation } from "react-router";
+import { Button } from "./ui/Button";
+import { Search } from "./ui/Search";
 
 const Header = () => {
+  const location = useLocation();
+
   return (
-    <header className="text-white flex justify-between py-6 lg:px-20 sm:px-3">
+    <header className="w-[70%] mx-auto text-white flex justify-between py-6 items-center">
       <div>
-        <p
-          className="text-[var(--primary-color)] text-4xl font-bold"
-          role="heading"
-        >
-          FilmFusion
-        </p>
+        <Link to="/">
+          <h1 className="text-[var(--primary-color)] text-4xl font-bold">
+            FilmFusion
+          </h1>
+        </Link>
       </div>
       <div className="flex items-center gap-4">
-        <Search />
-        <Button ariaLabel="Login" innerText="Login" />
-        <Button ariaLabel="Register" innerText="Register" />
+        {location.pathname === "/" && <Search />}
+        <Button ariaLabel="Login" children="Login" />
       </div>
     </header>
   );
